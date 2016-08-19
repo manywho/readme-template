@@ -4,7 +4,7 @@ ManyWho Service Name
 [![Build Status](https://travis-ci.org/manywho/service-twilio.svg?branch=develop)](https://travis-ci.org/manywho/service-twilio)
 
 
-This service allows you to integrate your flows with --introduce functionality description here--.
+This service allows you to integrate your flows with {introduce functionality description here}.
 
 ## Usage
 
@@ -18,7 +18,7 @@ instructions:
 
 To build the service, you will need --dependencies-- (e.g. to have Apache Ant, Maven 3, Java 8, etc).
 
-You will need to generate a configuration file for the service by running the provided `build.xml` script with Ant, passing in valid values for --description of the parameters--:
+You will need to generate a configuration file for the service by running the provided `build.xml` script with Ant, passing in valid values for {description of the parameters}:
 
 ```bash
 $ ant -DparamName=paramValue /
@@ -46,7 +46,7 @@ $ java -jar target/{service name}-1.0-SNAPSHOT.jar
 ##### Custom Port
 
 You can specify a custom port to run the service on by passing the `server.port` property when running the JAR. The
-following command will start the service listening on port 9090 (`0.0.0.0:9090/api/**{introduce here path for api}**`):
+following command will start the service listening on port 9090 (`0.0.0.0:9090/api/{introduce here path for api}`):
 
 ```bash
 $ java -Dserver.port=9090 -jar target/{service name}-1.0-SNAPSHOT.jar
