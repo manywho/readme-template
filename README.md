@@ -9,7 +9,7 @@ This service allows you to integrate your flows with {introduce functionality de
 ## Usage
 
 The latest tagged version of this service will always be deployed to our shared services platform, which is 
-accessible at https://services.manywho.com/api/{url of the service}.
+accessible at https://services.manywho.com/api/ {url of the service}.
 
 If you need to run your own instance of the service (e.g. for compliance reasons), it's easy to spin up following these
 instructions:
