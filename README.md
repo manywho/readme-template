@@ -46,7 +46,7 @@ $ java -jar target/{service name}-1.0-SNAPSHOT.jar
 ##### Custom Port
 
 You can specify a custom port to run the service on by passing the `server.port` property when running the JAR. The
-following command will start the service listening on port 9090 (`0.0.0.0:9090/api/{introduce here path for api}`):
+following command will start the service listening on port 9090 (`0.0.0.0:9090/api/**{introduce here path for api}**`):
 
 ```bash
 $ java -Dserver.port=9090 -jar target/{service name}-1.0-SNAPSHOT.jar
